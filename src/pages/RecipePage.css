@@ -1,0 +1,49 @@
+.recipe-detail {
+     max-width: 800px;
+     margin: 40px auto;
+     padding: 20px;
+     text-align: center;
+   }
+   
+   .recipe-detail img {
+     max-width: 100%;
+     height: auto;
+     border-radius: 12px;
+     margin: 20px 0;
+   }
+   
+   .back-btn {
+     float: right;
+     margin-bottom: 20px;
+     background-color: #ffa94d;
+     border: none;
+     color: white;
+     padding: 10px 20px;
+     border-radius: 8px;
+     cursor: pointer;
+     font-weight: bold;
+     transition: background 0.2s;
+     margin-left: 20px;
+   }
+   
+   .back-btn:hover {
+     background-color: #f57c00;
+   }
+   
+   .ingredients-list {
+     list-style: disc;
+     text-align: left;
+     margin: 20px auto;
+     max-width: 600px;
+     padding-left: 20px;
+     color: #333;
+   }
+   
+   .recipe-description {
+     text-align: left;
+     max-width: 600px;
+     margin: 20px auto;
+     color: #444;
+     line-height: 1.6;
+   }
+   
