@@ -1,32 +1,67 @@
+/* src/components/Header.css */
 .site-header {
-     background-color: #ffb347;
-     padding: 20px 40px;
-     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-   }
-   
-   .nav-bar {
-     display: flex;
-     justify-content: space-between;
-     align-items: center;
-   }
-   
-   .site-title {
-     font-size: 1.8rem;
-     margin: 0;
-     color: white;
-   }
-   
-   .home-button {
-     background-color: white;
-     color: #ff7f00;
-     padding: 10px 18px;
-     border-radius: 8px;
-     font-weight: bold;
-     text-decoration: none;
-     transition: background 0.2s ease;
-   }
-   
-   .home-button:hover {
-     background-color: #ffe1c4;
-   }
-   
+  background-color: #ffb347;
+  padding: 20px 40px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site-title {
+  font-size: 1.8rem;
+  margin: 0;
+  color: white;
+}
+
+.home-button {
+  background-color: white;
+  color: #ff7f00;
+  padding: 10px 18px;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background 0.2s ease;
+  margin-right: 10px;
+}
+
+.home-button:hover {
+  background-color: #ffe1c4;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.favorites-button {
+  background-color: white;
+  color: #ff7f00;
+  padding: 10px 18px;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background 0.2s ease;
+}
+
+.favorites-button:hover {
+  background-color: #ffe1c4;
+}
+
+.auth-button {
+  background-color: white;
+  color: #ff7f00;
+  padding: 8px 14px;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background 0.2s ease;
+}
+
+.auth-button:hover {
+  background-color: #ffe1c4;
+}
